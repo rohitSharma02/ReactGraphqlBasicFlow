@@ -1,0 +1,22 @@
+{
+  "name": "reactgraphqlbasicflow",
+  "version": "1.0.0",
+  "description": "Understanding the basic flow of React, Node, Graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitSharma02/ReactGraphqlBasicFlow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitSharma02/ReactGraphqlBasicFlow/issues"
+  },
+  "homepage": "https://github.com/rohitSharma02/ReactGraphqlBasicFlow#readme",
+  "dependencies": {
+    "graphql": "^16.5.0"
+  }
+}
