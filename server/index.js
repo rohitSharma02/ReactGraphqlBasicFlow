@@ -1,4 +1,5 @@
 const { ApolloServer } = require("apollo-server-express");
+const { typeDefs } = require("./Schema/TypeDefs");
 
 const express = require("express");
 const app = express();
