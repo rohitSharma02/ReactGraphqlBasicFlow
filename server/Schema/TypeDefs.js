@@ -1,19 +1,16 @@
-const { gql } = require("apollo-server-express");
-
+const { ApolloServer, gql } = require("apollo-server");
+//below is known as tagged template literal
 const typeDefs = gql`
-    type User {
-        id: Int!
-        name: String!
-        username: String!
-    }
+  type User {
+    name: String
+    username: String
+  }
+  #Queries -like get in REST World
+  type Query {
+    getAllUsers: [User]
+  }
+`;
 
-#Queries 
- 
-type Query  {
-    getAllUsers: User! 
-}
-
-#Mutation
-`
+//console.log(typeDefs);
 
 module.exports = { typeDefs };
